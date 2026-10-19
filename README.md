@@ -1,6 +1,6 @@
 # pstack-codex
 
-Runs [pstack](https://github.com/cursor/plugins/tree/main/pstack) role seats on OpenAI Codex models from Claude Code, through the local `codex` CLI and your ChatGPT login.
+Runs [pstack](https://github.com/cursor/plugins/tree/main/pstack) role seats on OpenAI Codex models from Claude Code, through the local `codex` CLI and your ChatGPT login. Each Codex seat first reads poteto-mode and the principles from the official pstack plugin that Claude Code uses, so both model families work from the same version.
 
 ## Install
 
