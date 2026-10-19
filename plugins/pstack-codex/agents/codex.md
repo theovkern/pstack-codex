@@ -19,7 +19,7 @@ dir: <working directory>
 
 ## Steps
 
-1. Write everything after the header to a temp file, `<tmp-brief>`. Pick `<tmp-out>` as a second temp path.
+1. Make a new folder with `mktemp -d`, so seats that run at the same time never share a file. In it, write everything after the header to `brief.txt`, which is `<tmp-brief>`. `<tmp-out>` is `out.txt` in the same folder.
 2. Map the effort. `session` sets no flag. `max` becomes `xhigh`. `minimal`, `low`, `medium`, `high`, and `xhigh` pass through.
 3. Map `readonly`. `true` becomes `read-only`, `false` becomes `workspace-write`.
 4. Run, with the Bash tool:
